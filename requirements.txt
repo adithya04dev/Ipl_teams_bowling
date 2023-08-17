@@ -1,0 +1,10 @@
+pandas==2.0.2
+matplotlib==3.7.2
+seaborn==0.12.2
+streamlit==1.23.1
+pickle-mixin==1.0.2
+numpy==1.20.3
+numpydoc
+outcome
+packaging==23.1
+
