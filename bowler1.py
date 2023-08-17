@@ -4,11 +4,11 @@ import numpy as np
 import pickle
 
 
-import sys
-sys.path.append('C:/Users/adith/Documents/ipl_app/team_app/bowling')
+#import sys
+#sys.path.append('C:/Users/adith/Documents/ipl_app/team_app/bowling')
 
 
-df=pd.read_csv("C:/Users/adith/Documents/ipl_app/team_app/batting/processed_ballbyball.csv")
+df=pd.read_csv("processed_ballbyball.csv")
 
 class Bowler():
 
@@ -90,6 +90,6 @@ class Bowler():
 bow=Bowler(df)
 result=bow.calculateb('Sunrisers Hyderabad',[1,2,3],["RHB"],[2023]) 
 print(result)
-with open('C:/Users/adith/Documents/ipl_app/team_app/bowling/bowling1.pkl', 'wb') as f:
+with open('bowling1.pkl', 'wb') as f:
         pickle.dump(bow, f)
 
