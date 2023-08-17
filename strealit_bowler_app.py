@@ -1,6 +1,6 @@
 
-import sys
-sys.path.append('C:/Users/adith/Documents/ipl_app/team_app/bowling')
+#import sys
+#sys.path.append('C:/Users/adith/Documents/ipl_app/team_app/bowling')
 
 
 import streamlit as st
@@ -12,7 +12,7 @@ import pandas as pd
 
 
 
-with open('C:/Users/adith/Documents/ipl_app/team_app/bowling/bowling1.pkl', 'rb') as f:
+with open('bowling1.pkl', 'rb') as f:
     bow = pickle.load(f)
 
 
