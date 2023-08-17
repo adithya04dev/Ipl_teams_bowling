@@ -26,7 +26,7 @@ def main():
     player_names = bow.players
     # Input for PlayerName (dropdown)
    
-    player_name = st.selectbox("Select Player Name", player_names)
+    player_name = st.selectbox("Select Team Name", player_names)
     phases = st.multiselect("Select Phases ", ["Powerplay", "Middle1","Middle2","Slog"])
     # Input for Bowling type (dropdown)
     batting_type = st.multiselect("Select Batting Type(s)", ["LHB", "RHB"])
